@@ -1,0 +1,93 @@
+body{ margin:0; padding:0;}
+/*
+ * dody  
+ */
+#content{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	min-height: 600px;
+	background-image:url("../img/2.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	-webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+	-o-background-size: cover;/* 兼容Opera */
+	zoom: 1;
+} 
+
+/*
+ * 搜索输入框
+ */
+.indexSearch {
+    padding: 0;
+    padding-left: 5px;
+    height: 40px;
+    width: 526px;
+    text-align: left 10px;
+    background-color: white;
+    border: 1px solid #B6B6B6;
+    font: 16px/18px arial;
+}
+
+/*
+ * 搜索按钮
+ */
+.indexButton {
+    padding: 0;
+    height: 40px;
+    width: 80px;
+    background-color:#3385FF;
+    color: floralwhite;
+    border: 1px solid #B6B6B6;
+	border-bottom: 1px solid #2D78F4;
+    cursor: pointer;
+    font-size: 17px;
+	margin-left: -9px;
+}
+
+input.indexButton:hover {
+	background: #317EF3;
+	border-bottom: 1px solid #2868C8;
+	box-shadow: 1px 1px 1px #CCC;
+}
+
+/*
+ * 搜索框
+ */
+.divCenter{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	height: 40px;
+    background-color: white;
+}
+
+/*
+ * logo图片
+ */
+.image{
+	position: absolute;
+	/* top: 20%; */
+	left: 41%;
+	padding-top: 150px;
+}
+
+/*
+ * 页脚
+ */
+#footer{
+	width: 95%;
+	height: 20px;
+	text-align: center;
+	font-size:15px;
+	margin: 0 auto;
+	color: #E6E6FA ;
+	line-height: 25px;
+	position:absolute;
+	bottom:0;
+}
+
