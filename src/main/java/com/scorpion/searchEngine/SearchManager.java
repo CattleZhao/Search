@@ -40,7 +40,6 @@ public class SearchManager {
         Analyzer analyzer = new IKAnalyzer5x();
         IndexReader reader = DirectoryReader.open(dir);
         IndexSearcher searcher = new IndexSearcher(reader);
-
         String[] fields = new String[]{"name", "title", "description", "html", "keywords"};
         QueryParser parser = new MultiFieldQueryParser(fields, analyzer);
         //允许在关键词开头使用通配符？
